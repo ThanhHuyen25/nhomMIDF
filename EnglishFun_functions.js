@@ -55,11 +55,6 @@ function render(){
 	document.getElementById("c").style.display = "inline-block";
     document.getElementById("d").style.display = "inline-block";
     
-//    document.getElementById("0").style.display = "inline-block";
-//    document.getElementById("1").style.display = "inline-block";
-//    document.getElementById("2").style.display = "inline-block";
-//    document.getElementById("3").style.display = "inline-block";
-    
 	document.getElementById("a").disabled = false;
 	document.getElementById("b").disabled = false;
 	document.getElementById("c").disabled = false;
@@ -120,23 +115,21 @@ function render2(){
 	document.getElementById("h-typeOfQuestions").innerHTML = typeOfQuestions[count];
 	document.getElementById("h-questions").innerHTML = questions[count];
 	document.getElementById("cauthu").innerHTML = count + 1 + "/" + questions.length;
-	// render();
+	
 }
 
 function submitAnswer2(){
 	var c;
 	useranswers = document.getElementById("blank");
-	// console.log("tsughi");
+	
 		//kiem tra ket qua cua cau tr loi
 		c = useranswers.value;
-		//console.log(c);
+	
 		if(c == answers[count]){
-			//console.log("helpp");
 			document.getElementById("demo").innerHTML = "Bạn trả lời đúng rồi!";
 			document.getElementById("demo").style.color = "green";
 			document.getElementById("demo").style.fontSize= "xx-large";
 
-			//console.log(diem);
 			diem = diem + 1;
 			document.getElementById("diem").innerHTML = diem;
 		} 
