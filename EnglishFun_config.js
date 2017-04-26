@@ -31,6 +31,49 @@ choices[2][2] = "meat";
 choices[2][3] = "egg";
 answers[2] = choices[2][0];
 
+questions[3] = "Con cá";
+typeOfQuestions[3] = "Điền từ tiếng anh phù hợp với nghĩa cho trước";
+answers[3] = "fish";
+
+questions[4] = "http://i.imgur.com/UKBy5GZ.jpg";
+typeOfQuestions[4] = "Chọn từ miêu tả hình ảnh";
+choices[4] = new Array();
+choices[4][0] = "noodle";
+choices[4][1] = "beef";
+choices[4][2] = "meat";
+choices[4][3] = "egg";
+answers[4] = choices[4][0];
+
+questions[5] = "She __ rice and meat";
+typeOfQuestions[5] = "Chọn từ thích hợp điền vào chỗ trống";
+choices[5] = new Array();
+choices[5][0] = "drink";
+choices[5][1] = "drinks";
+choices[5][2] = "eat";
+choices[5][3] = "eats";
+answers[5] = choices[5][3];
+
+var voca = new Array(); // tu vung
+var image = new Array(); // hinh anh
+var pronounce = new Array();// phat am + nghia
+var example = new Array(); // vi du
+ 
+voca[0] = "Noodle";
+image[0] = "http://i.imgur.com/UKBy5GZ.jpg";
+pronounce[0] =  '[nu:dl] | (noun) <br> (số nhiều) mì sợi' ;
+example[0] = "Instant noodles. <br> We have rice noodle soup with beef. <br> Chinese food is often served with rice or noodles."
+
+voca[1] = "Milk";
+image[1] = "http://i.imgur.com/6XRl3WW.jpg";
+pronounce[1] =  '[milk] | (noun) | [uncountable] <br> Sữa' ;
+example[1] = "the cows are milking well this season (mùa này bò cho nhiều sữa). <br> milk fresh from the cow (sữa bò tươi)"; // cac loai tu loai
+
+voca[2] = "Cake";
+image[2] = "http://i.imgur.com/xae0cFX.jpg";
+pronounce[2] =  '[keik] | (noun) <br> bánh';
+example[2] = "chocolate cake ( bánh socola)<br>cake of soap (một bánh xà phòng)<br>cake of tobacco (một bánh thuốc lá)"; // cac loai tu loai
+
+
 //=====================================================================================================================
 
 var voca = new Array(); // bo tu vung
