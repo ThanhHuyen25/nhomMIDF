@@ -1,6 +1,6 @@
 #Nhóm MIDF
 # Phần mềm học tiếng anh cho trẻ cấp 1: có 2 chức năng chính
-
+Link đến sản phầm của nhóm: https://english1.herokuapp.com/
 ## Kiểm tra trắc nghiệm: có 3 dạng bài
 	+Chọn từ thích hợp điền vào chỗ trống
 	+Chọn nghĩa tiếng việt của từ
@@ -13,7 +13,7 @@
 	+Bootstrap
 	+JavaScript
 	+HTML & CSS
-	+AngularJS
+	+Angular
 ## Usecase: https://github.com/ThanhHuyen25/nhomMIDF/blob/master/usecase.jpg
 
 ## Các thành viên:
